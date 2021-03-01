@@ -1,0 +1,50 @@
+{
+  "name": "fsb_backbone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "node ./server/server.js",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "^1.4.0"
+  },
+  "devDependencies": {
+    "amd-define-factory-patcher-loader": "^1.0.0",
+    "autoprefixer": "^10.2.4",
+    "browser-sync": "^2.26.14",
+    "browserify": "^17.0.0",
+    "child_process": "^1.0.2",
+    "cssnano": "^4.1.10",
+    "del": "^6.0.0",
+    "eslint": "^7.20.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "jquery": "^3.5.1",
+    "postcss": "^8.2.6",
+    "prettier": "^2.2.1",
+    "socket.io": "^3.1.2",
+    "underscore": "^1.12.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "webpack": "^5.24.2",
+    "webpack-stream": "^6.1.2"
+  }
+}
